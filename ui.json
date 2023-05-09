@@ -79,76 +79,68 @@
             },
             "visible": true
         },
-        "df58e406-51ca-43ac-ae39-94cb69defda8": {
-            "id": "df58e406-51ca-43ac-ae39-94cb69defda8",
-            "type": "separator",
-            "content": {},
-            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
-            "position": 5,
-            "handlers": {},
-            "visible": true
-        },
         "2c5281da-86fa-4da1-9551-834fbf59dd91": {
             "id": "2c5281da-86fa-4da1-9551-834fbf59dd91",
             "type": "plotlygraph",
             "content": {
                 "spec": "@{banana_norm}\n"
             },
-            "parentId": "ff290f50-7556-4380-8661-16796acb179b",
+            "parentId": "e9000c8d-81ae-4382-a0da-da5bb5eadbfe",
             "position": 0,
-            "handlers": {}
-        },
-        "a89a0867-c34b-4a5e-aa46-fa282bcdc0bb": {
-            "id": "a89a0867-c34b-4a5e-aa46-fa282bcdc0bb",
-            "type": "columns",
-            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
-            "content": {},
             "handlers": {},
-            "position": 6,
-            "visible": true
-        },
-        "ff290f50-7556-4380-8661-16796acb179b": {
-            "id": "ff290f50-7556-4380-8661-16796acb179b",
-            "type": "column",
-            "parentId": "a89a0867-c34b-4a5e-aa46-fa282bcdc0bb",
-            "content": {
-                "width": "1"
-            },
-            "handlers": {},
-            "position": 0,
-            "visible": true
-        },
-        "c76b4150-56ea-4348-b95a-3f899e6c8884": {
-            "id": "c76b4150-56ea-4348-b95a-3f899e6c8884",
-            "type": "column",
-            "parentId": "a89a0867-c34b-4a5e-aa46-fa282bcdc0bb",
-            "content": {
-                "width": "1"
-            },
-            "handlers": {},
-            "position": 1,
-            "visible": true
-        },
-        "aac47015-6d98-4379-94c2-32a4815e524f": {
-            "id": "aac47015-6d98-4379-94c2-32a4815e524f",
-            "type": "plotlygraph",
-            "parentId": "c76b4150-56ea-4348-b95a-3f899e6c8884",
-            "content": {
-                "spec": "@{dr_er}"
-            },
-            "handlers": {},
-            "position": 0,
             "visible": true
         },
         "7cdaa1a4-5df1-44d6-9536-aa64a60b2113": {
             "id": "7cdaa1a4-5df1-44d6-9536-aa64a60b2113",
             "type": "text",
-            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
             "content": {
                 "text": "@{files}"
             },
-            "handlers": {},
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
             "position": 3,
+            "handlers": {},
+            "visible": true
+        },
+        "31f3dc6c-b9fa-4dc3-98ec-6d99a73e802b": {
+            "id": "31f3dc6c-b9fa-4dc3-98ec-6d99a73e802b",
+            "type": "tabs",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {},
+            "handlers": {},
+            "position": 5,
+            "visible": true
+        },
+        "e9000c8d-81ae-4382-a0da-da5bb5eadbfe": {
+            "id": "e9000c8d-81ae-4382-a0da-da5bb5eadbfe",
+            "type": "tab",
+            "parentId": "31f3dc6c-b9fa-4dc3-98ec-6d99a73e802b",
+            "content": {
+                "name": "Normalized"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "b7afedfe-211b-4f7a-ac38-1cda6fd0d7a0": {
+            "id": "b7afedfe-211b-4f7a-ac38-1cda6fd0d7a0",
+            "type": "tab",
+            "parentId": "31f3dc6c-b9fa-4dc3-98ec-6d99a73e802b",
+            "content": {
+                "name": "Raw"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "c4dec64e-4254-4e56-87a4-b64ab866ab3b": {
+            "id": "c4dec64e-4254-4e56-87a4-b64ab866ab3b",
+            "type": "plotlygraph",
+            "parentId": "b7afedfe-211b-4f7a-ac38-1cda6fd0d7a0",
+            "content": {
+                "spec": "@{banana_raw}\n"
+            },
+            "handlers": {},
+            "position": 0,
             "visible": true
         }
     }
