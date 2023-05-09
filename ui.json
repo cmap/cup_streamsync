@@ -70,10 +70,10 @@
             "id": "c4c4511a-35c4-48f6-b7ea-279acc1af3fb",
             "type": "button",
             "content": {
-                "text": "Get report"
+                "text": "View report"
             },
-            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
-            "position": 4,
+            "parentId": "6280919d-581d-42a0-acea-b07a41e0f602",
+            "position": 0,
             "handlers": {
                 "click": "get_plots"
             },
@@ -105,9 +105,12 @@
             "id": "31f3dc6c-b9fa-4dc3-98ec-6d99a73e802b",
             "type": "tabs",
             "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
-            "content": {},
+            "content": {
+                "primaryTextColor": "#000000",
+                "containerShadow": "16px 19px 13px -11px #000000"
+            },
             "handlers": {},
-            "position": 5,
+            "position": 7,
             "visible": true
         },
         "e9000c8d-81ae-4382-a0da-da5bb5eadbfe": {
@@ -141,6 +144,185 @@
             },
             "handlers": {},
             "position": 0,
+            "visible": true
+        },
+        "879380a1-f29d-441d-99ab-4fdfddf3e4b9": {
+            "id": "879380a1-f29d-441d-99ab-4fdfddf3e4b9",
+            "type": "columns",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {},
+            "handlers": {},
+            "position": 4,
+            "visible": true
+        },
+        "6280919d-581d-42a0-acea-b07a41e0f602": {
+            "id": "6280919d-581d-42a0-acea-b07a41e0f602",
+            "type": "column",
+            "parentId": "879380a1-f29d-441d-99ab-4fdfddf3e4b9",
+            "content": {
+                "width": "1"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "ec87dbed-c4f7-44ee-b370-58fdec0aedc3": {
+            "id": "ec87dbed-c4f7-44ee-b370-58fdec0aedc3",
+            "type": "column",
+            "parentId": "879380a1-f29d-441d-99ab-4fdfddf3e4b9",
+            "content": {
+                "width": "1"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "eba04729-c52f-405b-bdb8-7fc47a139ff9": {
+            "id": "eba04729-c52f-405b-bdb8-7fc47a139ff9",
+            "type": "button",
+            "parentId": "ec87dbed-c4f7-44ee-b370-58fdec0aedc3",
+            "content": {
+                "text": "Generate report"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "2141e0ba-80e3-4434-a36b-a74d77da0299": {
+            "id": "2141e0ba-80e3-4434-a36b-a74d77da0299",
+            "type": "heading",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {
+                "text": "Banana Plots"
+            },
+            "handlers": {},
+            "position": 6,
+            "visible": true
+        },
+        "48f40a6c-6335-424c-ab4f-5ec802a44c7f": {
+            "id": "48f40a6c-6335-424c-ab4f-5ec802a44c7f",
+            "type": "heading",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {
+                "text": "Heading Text"
+            },
+            "handlers": {},
+            "position": 8,
+            "visible": true
+        },
+        "7615f7a5-cb8f-4325-b4db-bc4d3372cbd2": {
+            "id": "7615f7a5-cb8f-4325-b4db-bc4d3372cbd2",
+            "type": "tabs",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {},
+            "handlers": {},
+            "position": 9,
+            "visible": true
+        },
+        "7ee9b2f6-0f0a-413a-a1f5-01c3919e00cb": {
+            "id": "7ee9b2f6-0f0a-413a-a1f5-01c3919e00cb",
+            "type": "tab",
+            "parentId": "7615f7a5-cb8f-4325-b4db-bc4d3372cbd2",
+            "content": {
+                "name": "Normalized"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "039cfd4f-6978-44b2-90cd-0909123fbc2e": {
+            "id": "039cfd4f-6978-44b2-90cd-0909123fbc2e",
+            "type": "plotlygraph",
+            "parentId": "7ee9b2f6-0f0a-413a-a1f5-01c3919e00cb",
+            "content": {
+                "spec": "@{dr_norm}"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "303ea1cb-f854-44e0-924d-ec069ef6e3f8": {
+            "id": "303ea1cb-f854-44e0-924d-ec069ef6e3f8",
+            "type": "heading",
+            "parentId": "6280919d-581d-42a0-acea-b07a41e0f602",
+            "content": {
+                "text": "Dynamic Range"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "35ac84d0-41a8-457a-a54d-84cc3e037ac5": {
+            "id": "35ac84d0-41a8-457a-a54d-84cc3e037ac5",
+            "type": "columns",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {},
+            "handlers": {},
+            "position": 5,
+            "visible": true
+        },
+        "263cd095-ef0e-4855-9bcb-baa584d6f0d7": {
+            "id": "263cd095-ef0e-4855-9bcb-baa584d6f0d7",
+            "type": "column",
+            "parentId": "35ac84d0-41a8-457a-a54d-84cc3e037ac5",
+            "content": {
+                "width": "1"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "75da3a49-1561-422d-bffc-e043f74298a4": {
+            "id": "75da3a49-1561-422d-bffc-e043f74298a4",
+            "type": "column",
+            "parentId": "35ac84d0-41a8-457a-a54d-84cc3e037ac5",
+            "content": {
+                "width": "1"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "64b913ef-19b0-40dc-86df-93d48507f0e2": {
+            "id": "64b913ef-19b0-40dc-86df-93d48507f0e2",
+            "type": "horizontalstack",
+            "parentId": "263cd095-ef0e-4855-9bcb-baa584d6f0d7",
+            "content": {
+                "alignment": "left"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "261ed8b0-52b9-473d-a7cc-a1ffd14eb8eb": {
+            "id": "261ed8b0-52b9-473d-a7cc-a1ffd14eb8eb",
+            "type": "plotlygraph",
+            "parentId": "64b913ef-19b0-40dc-86df-93d48507f0e2",
+            "content": {
+                "spec": "@{dr_norm}"
+            },
+            "handlers": {},
+            "position": 0,
+            "visible": true
+        },
+        "6c1e21b3-24b3-4a38-a3e1-1e1e7e23845c": {
+            "id": "6c1e21b3-24b3-4a38-a3e1-1e1e7e23845c",
+            "type": "plotlygraph",
+            "parentId": "64b913ef-19b0-40dc-86df-93d48507f0e2",
+            "content": {
+                "spec": "@{dr_raw}"
+            },
+            "handlers": {},
+            "position": 1,
+            "visible": true
+        },
+        "b888b6bb-9da5-47e0-a8a5-d46158f35e97": {
+            "id": "b888b6bb-9da5-47e0-a8a5-d46158f35e97",
+            "type": "sidebar",
+            "parentId": "c0f99a9e-5004-4e75-a6c6-36f17490b134",
+            "content": {},
+            "handlers": {},
+            "position": -2,
             "visible": true
         }
     }
